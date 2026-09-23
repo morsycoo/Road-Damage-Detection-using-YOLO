@@ -1,0 +1,11 @@
+path: "C:\\Users\\mahmu\\OneDrive\\Desktop\\Road Damage Detection\\\U0001F5C2\uFE0F\
+  \ data\\yolo_dataset"
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  0: longitudinal_crack
+  1: transverse_crack
+  2: alligator_crack
+  3: pothole
