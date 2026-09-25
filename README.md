@@ -7,7 +7,12 @@
 **End-to-End Computer Vision System for Automated Road Damage Detection**
 
 Detect road damage in images and videos, expose the trained model through a REST API, package the application with Docker, and run GPU-accelerated inference with CUDA and FP16.
-
+<p align="center">
+  <img
+    src="assets/Road Damage Detection.png"
+    alt="Road Damage Detection"
+    width="100%"
+  />
 </p>
 
 <p align="center">
