@@ -848,7 +848,7 @@ Validated size:
 ## 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/morsycoo/Road-Damage-Detection-using-YOLO
 cd "Road Damage Detection"
 ```
 
@@ -949,37 +949,6 @@ The API provides interactive testing for:
 - Browser playback
 
 ---
-
-# 🖼️ Visual Demonstration
-
-Recommended repository screenshots:
-
-```text
-assets/
-├── architecture.png
-├── dataset_sample.png
-├── annotated_image.png
-├── swagger_api.png
-└── annotated_video_result.png
-```
-
-You can add them to the README with:
-
-```markdown
-![Dataset Sample](assets/dataset_sample.png)
-
-![Annotated Detection](assets/annotated_image.png)
-
-![Swagger API](assets/swagger_api.png)
-
-![Annotated Video Result](assets/annotated_video_result.png)
-```
-
-The production video output can also be kept under:
-
-```text
-outputs/video/
-```
 
 ---
 
@@ -1146,9 +1115,9 @@ for the software license.
 
 # 👤 Project Author
 
-**Morsy**
+**Mahmoud Morsy**
 
-Computer Science / AI Engineering Portfolio Project
+AI & ML Engineering
 
 Focus areas demonstrated:
 
@@ -1162,33 +1131,5 @@ Focus areas demonstrated:
 - GPU Deployment
 
 ---
-
-# ✅ Final Project Status
-
-## PROJECT COMPLETED
-
-This project is complete as an end-to-end AI engineering application.
-
-```text
-DATA
-  ↓
-MODEL
-  ↓
-EVALUATION
-  ↓
-ERROR ANALYSIS
-  ↓
-OPTIMIZATION
-  ↓
-INFERENCE ENGINE
-  ↓
-FASTAPI
-  ↓
-DOCKER
-  ↓
-CUDA / NVIDIA GPU
-  ↓
-IMAGE + VIDEO PRODUCTION API
-```
 
 **Day 6 is the final project day. No Day 7 is required.**
