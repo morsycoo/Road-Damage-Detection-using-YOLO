@@ -1129,7 +1129,3 @@ Focus areas demonstrated:
 - API Development
 - Docker
 - GPU Deployment
-
----
-
-**Day 6 is the final project day. No Day 7 is required.**
