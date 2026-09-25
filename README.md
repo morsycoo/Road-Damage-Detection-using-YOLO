@@ -21,6 +21,7 @@ Detect road damage in images and videos, expose the trained model through a REST
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
+</div>
 
 ---
 
