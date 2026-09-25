@@ -482,19 +482,23 @@ app/main.py
 flowchart TD
     A[Client] --> B[FastAPI]
     B --> C{Input Type}
+
     C -->|Image| D[Image Prediction]
     C -->|Video| E[Frame-by-Frame Video Prediction]
+
     D --> F[RoadDamageInferenceEngine]
     E --> F
+
     F --> G[YOLO26s FP16]
     G --> H[RTX 5070 GPU]
+
     D --> I[JSON Response]
     E --> J[Annotated MP4]
-    J --> K[/video]
-    J --> L[/watch]
-    J --> M[/download]
-```
 
+    J --> K["/video"]
+    J --> L["/watch"]
+    J --> M["/download"]
+```
 ## Endpoints
 
 | Method | Endpoint | Purpose |
@@ -506,8 +510,8 @@ flowchart TD
 | GET | `/download/{filename}` | Download annotated video |
 | GET | `/watch/{filename}` | Browser video player |
 
----
-
+```
+```
 # ❤️ Health Check
 
 The production health endpoint returned:
