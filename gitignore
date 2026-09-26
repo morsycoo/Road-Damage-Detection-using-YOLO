@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime files
+runtime/uploads/*
+runtime/cache/*
+
+# Generated outputs
+outputs/image/*
+outputs/video/*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Large dataset sources
+data/RDD2022/
+data/processed/
+data/video/
+
+# Local experiment files
+runs/
+wandb/
+
+# Environment files
+.env
+.env.*
+!.env.example
